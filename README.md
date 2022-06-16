@@ -9,16 +9,17 @@ For example scheduled task script is enabled because i use scheduled task for ru
 
 ## Changes
 
-1 Windows defender and security center remains.
-2 Virtual memory remains untouched
-3 power scheme goes to high power for ultimate performance of the old system.
-4 Microsoft store and chocolatey repositories are not present.
+- 1 Windows defender and security center remains.
+- 2 Virtual memory remains untouched
+- 3 power scheme goes to high power for ultimate performance of the old system.
+- 4 Microsoft store and chocolatey repositories are not present.
 
 Debloat and Optimization Script for machines running Windows 10 for all task purposes
 
-Download package
+## Download package
 [DNXDO_mining_Script.zip](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
 
+## Purpose
 This Script help to gain performance on your system, in two main ways:
 - First one, debloat windows. For this, i based on the W4RH4WK work on their project
 https://github.com/W4RH4WK/Debloat-Windows-10
