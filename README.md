@@ -7,6 +7,13 @@ Al the work is from Deen0X. I change some scripts to use in my old windows 10 PC
 For example scheduled task script is enabled because i use scheduled task for running scripts ;)
 
 
+## Changes
+
+1 Windows defender and security center remains.
+2 Virtual memory remains untouched
+3 power scheme goes to high power for ultimate performance of the old system.
+4 Microsoft store and chocolatey repositories are not present.
+
 Debloat and Optimization Script for machines running Windows 10 for all task purposes
 
 Download package
