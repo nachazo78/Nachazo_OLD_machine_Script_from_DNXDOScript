@@ -14,8 +14,6 @@ For example scheduled task script is enabled because i use scheduled task for ru
 - 3 power scheme goes to high power for ultimate performance of the old system.
 - 4 Microsoft store and chocolatey repositories are not present.
 
-Debloat and Optimization Script for machines running Windows 10 for all task purposes
-
 ## Download package
 [Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
 
