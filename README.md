@@ -98,4 +98,4 @@ Hope you found useful this script.
 
 Nachazo78
 
-Thanks for tuberviejuner to do a Video about deen0x script. 
+Thanks TuberViejuner for making a Video about deen0x script. 
