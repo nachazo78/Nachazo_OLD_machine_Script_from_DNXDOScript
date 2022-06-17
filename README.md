@@ -95,8 +95,8 @@ Hope you found useful this script.
 
 Nachazo78
 
-Thanks TuberViejuner for making a Video about deen0x script. 
+Thanks [TuberViejuner](https://youtube.com/c/TuberViejuner) for making a Video about deen0x script. 
 [Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
-https://youtube.com/c/TuberViejuner
+
 https://youtu.be/N2Lz-9wegfQ
 https://github.com/Deen0X/DNXDOScript/releases
