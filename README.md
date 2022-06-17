@@ -93,9 +93,11 @@ The script will enable the service for creating and managing restore points, and
 
 Hope you found useful this script.
 
+Thanks [TuberViejuner](https://youtube.com/c/TuberViejuner) for [making a Video](https://youtu.be/N2Lz-9wegfQ) about [deen0x script](https://github.com/Deen0X/DNXDOScript/releases). 
+
 Nachazo78
 
-Thanks [TuberViejuner](https://youtube.com/c/TuberViejuner) for [making a Video](https://youtu.be/N2Lz-9wegfQ) about [deen0x script](https://github.com/Deen0X/DNXDOScript/releases). 
+
 
 
 
