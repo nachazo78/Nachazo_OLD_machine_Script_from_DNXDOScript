@@ -994,11 +994,13 @@ setlocal enableDelayedExpansion
 	)
 	echo selected %rSUBPROC% mode
 	echo (10 seconds timer. default is Yes)
-	choice /c YN /D Y /T 10 /M "Create restore point?"
-	if errorlevel 1 (
-		powershell Enable-ComputerRestore -Drive 'C:\'
-		powershell.exe -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description "MyRestorePoint" -RestorePointType "MODIFY_SETTINGS""
+	choice /c NY /D Y /T 10 /M "Create restore point?"
+	if errorlevel 2 (
+		Goto NoRestorePoint
 	)
+	powershell Enable-ComputerRestore -Drive 'C:\'
+	powershell.exe -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description "MyRestorePoint" -RestorePointType "MODIFY_SETTINGS""
+:NoRestorePoint 
 	
 	cls
 :ToStartScript2
@@ -1044,13 +1046,13 @@ rem	echo RMFilter=%RMFilter%
 :: __________________________________________________________________ WUtils	
 	call :ProcessDir "%BaseDirProc%Utils\Enabled\" "*%RMFilter%.*" "** Running Utils **"
 
-::	call :writeL "- Adding Windows Start Menu Entry for this Script" 76 "["
-::	set sDESTShortCut=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\DNXScript
-::	if not exist "%sDESTShortCut%" mkdir "%sDESTShortCut%"
-::	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion Script by Deen0X" "" "%myIcon%" ""
-::	call :writeL "."
-::	%sELOK%
-::	echo.
+	call :writeL "- Adding Windows Start Menu Entry for this Script" 76 "["
+	set sDESTShortCut=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\DNXScript
+	if not exist "%sDESTShortCut%" mkdir "%sDESTShortCut%"
+	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion Script by Deen0X" "" "%myIcon%" ""
+	call :writeL "."
+	%sELOK%
+	echo.
 
 :}
 
