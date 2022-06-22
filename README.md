@@ -15,7 +15,7 @@ Al the work is from Deen0X. I change some scripts to use in my old windows 10 PC
 - 6 SSD tune is disabled by default.
 
 ## Download package
-[Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/blob/main/Nachazo_OLD_machine_Script_from_DNXDOScript.zip)
+[Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/archive/refs/tags/nachazo78.zip)
 
 
 ## Purpose
