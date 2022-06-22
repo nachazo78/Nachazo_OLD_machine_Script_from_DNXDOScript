@@ -6,7 +6,7 @@ cls
 set iXCMD=%1
 if "_%iXCMD%"=="_" set iXCMD=0
 if %iXCMD%==0 (
-	echo Re-Launching script with necessary environment setup [Admin and Unrestricted Execution Policy]
+	echo HI! We are Re-Launching script with necessary environment setup [Admin and Unrestricted Execution Policy]
 	set "myF=%~dpnx0"
 	call :stringPS "!myF!" xRun
 rem	echo xRun=!xRun!
@@ -1049,7 +1049,7 @@ rem	echo RMFilter=%RMFilter%
 	call :writeL "- Adding Windows Start Menu Entry for this Script" 76 "["
 	set sDESTShortCut=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\DNXScript
 	if not exist "%sDESTShortCut%" mkdir "%sDESTShortCut%"
-	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion Script by Deen0X" "" "%myIcon%" ""
+	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion for old machines Script by Deen0X and Nachazo" "" "%myIcon%" ""
 	call :writeL "."
 	%sELOK%
 	echo.
