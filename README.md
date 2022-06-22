@@ -12,6 +12,7 @@ Al the work is from Deen0X. I change some scripts to use in my old windows 10 PC
 - 3 power scheme goes to high power for ultimate performance of the old system.
 - 4 Microsoft store and chocolatey repositories are not present.
 - 5 Scheduled task enabled because i use scheduled task for running scripts ;).
+- 6 SSD tune is disabled by default.
 
 ## Download package
 [Nachazo_OLD_machine_Script_from_DNXDOScript.zp](https://github.com/nachazo78/Nachazo_OLD_machine_Script_from_DNXDOScript/raw/main/Nachazo_OLD_machine_Script_from_DNXDOScript-main.zip)
