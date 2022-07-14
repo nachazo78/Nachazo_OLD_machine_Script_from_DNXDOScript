@@ -6,7 +6,7 @@ cls
 set iXCMD=%1
 if "_%iXCMD%"=="_" set iXCMD=0
 if %iXCMD%==0 (
-	echo HI! We are Re-Launching script with necessary environment setup [Admin and Unrestricted Execution Policy]
+	echo Re-Launching script with necessary environment setup [Admin and Unrestricted Execution Policy]
 	set "myF=%~dpnx0"
 	call :stringPS "!myF!" xRun
 rem	echo xRun=!xRun!
@@ -994,13 +994,11 @@ setlocal enableDelayedExpansion
 	)
 	echo selected %rSUBPROC% mode
 	echo (10 seconds timer. default is Yes)
-	choice /c NY /D Y /T 10 /M "Create restore point?"
-	if errorlevel 2 (
-		Goto NoRestorePoint
+	choice /c YN /D Y /T 10 /M "Create restore point?"
+	if errorlevel 1 (
+		powershell Enable-ComputerRestore -Drive 'C:\'
+		powershell.exe -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description "MyRestorePoint" -RestorePointType "MODIFY_SETTINGS""
 	)
-	powershell Enable-ComputerRestore -Drive 'C:\'
-	powershell.exe -ExecutionPolicy Bypass -Command "Checkpoint-Computer -Description "MyRestorePoint" -RestorePointType "MODIFY_SETTINGS""
-:NoRestorePoint 
 	
 	cls
 :ToStartScript2
@@ -1049,7 +1047,7 @@ rem	echo RMFilter=%RMFilter%
 	call :writeL "- Adding Windows Start Menu Entry for this Script" 76 "["
 	set sDESTShortCut=%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\DNXScript
 	if not exist "%sDESTShortCut%" mkdir "%sDESTShortCut%"
-	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion for old machines Script by Deen0X and Nachazo" "" "%myIcon%" ""
+	call :CreateShortCut "%~dpnx1" "%sDESTShortCut%" "DNXDOScript - Debloat and Optimiaztion Script by Deen0X" "" "%myIcon%" ""
 	call :writeL "."
 	%sELOK%
 	echo.
